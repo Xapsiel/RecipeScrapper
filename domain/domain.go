@@ -20,7 +20,7 @@ type Recipe struct {
 	ShopLink    string            `json:"shopLink"`
 }
 
-const KEY = "mongodb+srv://ilyasuseinov3301:mishka_2023@recipebook.xxu8dre.mongodb.net/?retryWrites=true&w=majority&appName=RecipeBook"
+const KEY = "YourKey"
 
 type Scrapper struct {
 	parseURL  string //Страницу, которую изначально парсим
